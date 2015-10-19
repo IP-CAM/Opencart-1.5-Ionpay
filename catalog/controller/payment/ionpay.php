@@ -228,7 +228,6 @@ class ControllerPaymentIONPay extends Controller {
         		$this->config->get('ionpay_success_status'),
         		'Payment successfully through Ionpay Credit Card. With Transaction ID '. $get_request->tid, TRUE);
         }
-
         echo "OK";
     }
 }
